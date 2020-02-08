@@ -14,6 +14,7 @@ $(document).ready(function () {
         focusOnSelect: true,
         // variableWidth: true,
         arrows: false,
+        infinite: true,
     });
 
     $('.header__menu-btn').on('click', function(){
