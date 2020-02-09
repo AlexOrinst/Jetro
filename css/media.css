@@ -15,7 +15,7 @@
     .header__menu li {
         display: block;
         text-align: center;
-        margin-bottom: 20px;
+        margin-top: 20px;
         width: 100%;
         border-bottom: 1px dotted #e8663c;
     }
@@ -30,4 +30,52 @@
         display: block;
         font-size: 20px;
     }
+
+    .slider-for .slick-next {
+        top: 50%;
+    }
+
+    .slider__inner {
+        display: none;
+    }
+
+    .descr__items {
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+
+      .descr__content {
+        position: relative;
+        margin-right: 19px;
+        margin-bottom: 20px;
+        width: 300px;
+        border-bottom: 1px solid #dbdbdb;
+      }
+
+      .descr__title, .descr__text {
+          padding-right: 0;
+      }
+
+      .descr__title {
+          font-size: 15px;
+      }
+      
+      .descr__button {
+          margin-bottom: 10px;
+      }
+
+      .social-media__wrapper {
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+      
+      .social-media__inner {
+          margin-bottom: 10px;
+      }
+
+      .footer-inner {
+          justify-content: center;
+          flex-wrap: wrap;
+      }
 }

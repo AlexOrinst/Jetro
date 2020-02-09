@@ -8,13 +8,12 @@ $(document).ready(function () {
     });
     $('.slider-nav').slick({
         slidesToShow: 6,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
         asNavFor: '.slider-for',
         centerMode: false,
         focusOnSelect: true,
-        // variableWidth: true,
+        variableWidth: true,
         arrows: false,
-        infinite: true,
     });
 
     $('.header__menu-btn').on('click', function(){
